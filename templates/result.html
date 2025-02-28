@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detection Result</title>
+</head>
+<body>
+    <h1>Detection Result</h1>
+    <p><b>Result:</b> {{ result }}</p>
+    <p><b>Variance:</b> {{ variance }}</p>
+    <p><b>Skewness:</b> {{ skew }}</p>
+    <p><b>Kurtosis:</b> {{ kurtosis }}</p>
+    <p><b>Entropy:</b> {{ entropy }}</p>
+    <h2>Original Image</h2>
+    <div>{{ original_image|safe }}</div>
+    <h2>Edge Image</h2>
+    <div>{{ edge_image|safe }}</div>
+    <a href="/">Back to Home</a>
+</body>
+</html>
